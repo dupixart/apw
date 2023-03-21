@@ -16,7 +16,10 @@
 
 # API
 
-Создать ссылку: /smthindex.php?key=KEY&link=https://example.org
+Создать ссылку: 
+```http
+GET /smthindex.php?key=KEY&link=https://example.org
+```
 Ответ:
 ```json 
 {"success":1,"lnk":"10ea"}
